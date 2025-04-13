@@ -15,14 +15,16 @@
 "Experience": {
   "ExperienceText": "Use this area to explain how you got to where you are and what you are currently doing now.<br><br>This is a good spot to talk yourself up.",
   "School": "Seattle Pacific University",
-  "Major": "Computer Science",
-  "Graduation": "June 2023",
+  "Major": "Electrical Engineering",
+  "Graduation": "June 2025",
   "EducationText": "Use this to add some narrative to your education section",
   "Employment": "Seattle Pacific University",
-  "Role": "Computer Science Lab Assistant",
+  "Role": "Electrical Engineering Lab Assistant",
   "EmploymentText": "Use this to add some narrative to your employment section",
-  "Skills": ["C++", " JavaScript", " Node", " CSS"," HTML"],
-  "SkillsText": "Use this to add some narrative to your skills section",
+
+  "Skills": [" C++", " Python", " Assembly", " PSCAD", " Multisim", " MATLAB", " Simulink", " CLion", " LabView", "Altium", "Visual Studio", "Microsoft Office"]
+  "SkillsText": "I have a strong foundation in programming and electrical engineering, with hands-on experience using tools like MATLAB, Simulink, and Altium for real-world projects. Whether it's circuit simulation, embedded systems development, or PCB design, I enjoy combining software and hardware to solve complex engineering problems. I'm also comfortable working across multiple IDEs and engineering platforms to bring ideas to life efficiently and effectively."],
+
   "Resume": "student-resume.pdf"  
 },
 "Project1": {
@@ -33,18 +35,17 @@
     "DetailImages": ["P1Detail1.png","P1Detail2.png","P1Detail3.png"]
   },
   "Project2": {
-    "Title": "Interesting Project 2",
-    "Desc": "This is a description of Project Two.<br><br>It also has a GitHub repo and more details shown in screenshots.",
-    "GitHubRepo": "https://github.com",
+    "Title": "Power Flow Analysis Using PSCAD/EMTDC and MATLAB",
+    "Description": "Analyzed a 3-bus power system using PSCAD for simulation and MATLAB for numerical methods (Gauss-Seidel, Newton-Raphson). Built a controllable 3-phase source system in PSCAD and integrated real-time control panels. Compared iterative methods for power flow, incorporated line shunt capacitances, and evaluated system performance based on voltage, power flow, and convergence behavior.",    "GitHubRepo": "https://github.com",
     "MainImage": "P2Main.png",
     "DetailImages": ["P2Detail1.png","P2Detail2.png","P2Detail3.png","P2Detail4.png"]
   },
   "Project3": {
-    "Title": "Interesting Project 3",
-    "Desc": "This is a description of Project Three.<br><br>It does not have a GitHub repo or any additional screenshots.",
+    "Title": "Dual Adjustable Power Supply with Multiple Output Levels",
+    "Description": "Designed, simulated, and tested a dual adjustable power supply with six output levels. Utilized full-wave rectification, voltage regulation (LM317, LM337, UA7912, UA7805), and operational amplifiers to create ±1.5–19V, ±12V, +5V, and 0–10V outputs. Validated circuit through Multisim simulations, breadboard prototyping, and PCB implementation. Emphasized modular stage design with protective inputs, filtering, and real-time voltage adjustment.",
     "GitHubRepo": "",
-    "MainImage": "P3Main.png",
-    "DetailImages": []
+    "MainImage": "circuit_plan.png",
+    "DetailImages": ["Elec_1_PCB.png","Elec_1_schematic.png","Elec_1_transient.png","Elec_1_physical_PCB.png"]
   },
   "Project4": {
     "Title": "",
