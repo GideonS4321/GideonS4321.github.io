@@ -28,25 +28,28 @@
   "Resume": "student-resume.pdf"  
 },
 "Project1": {
-    "Title": "Interesting Project 1",
-    "Desc": "This is a description of Project One.<br><br>It has a GitHub repo and more details shown in screenshots.",
+    "Title": "Senior Design: CoastClear PCB Design",
+    "Desc": "For my Senior Design, I worked in a team of two mechanical engineering students and two computer engineering students to design a remote-controlled, beach cleaning robot named the CoastClear. As the electrical engineer for the project I was tasked with designing, fabricating and soldering the power distribution printed circuit board. The project has two driving motors, one sifting motor for collecting trash, and one microcontroller output for interfacing with the robot. This necessitated the use of buck and boost converters set at different voltages to deliver efficient power to the various outputs. Additionally, I was tasked with drafting the various diagrams required to recreate the electrical connections in our project.",
     "GitHubRepo": "https://github.com",
     "MainImage": "P1Main.png",
     "DetailImages": ["P1Detail1.png","P1Detail2.png","P1Detail3.png"]
   },
+
   "Project2": {
     "Title": "Power Flow Analysis Using PSCAD/EMTDC and MATLAB",
-    "Description": "Analyzed a 3-bus power system using PSCAD for simulation and MATLAB for numerical methods (Gauss-Seidel, Newton-Raphson). Built a controllable 3-phase source system in PSCAD and integrated real-time control panels. Compared iterative methods for power flow, incorporated line shunt capacitances, and evaluated system performance based on voltage, power flow, and convergence behavior.",    "GitHubRepo": "https://github.com",
+    "Description": "Analyzed a 3-bus power system using PSCAD for simulation and MATLAB for numerical methods (Gauss-Seidel, Newton-Raphson). Simulated a controllable 3-phase source system in PSCAD and integrated real-time control panels in the software. I then, compared iterative methods for power flow, incorporated line shunt capacitances, and evaluated system performance based on voltage, power flow, and convergence behavior.",    "GitHubRepo": "https://github.com",
     "MainImage": "P2Main.png",
     "DetailImages": ["P2Detail1.png","P2Detail2.png","P2Detail3.png","P2Detail4.png"]
   },
-  "Project3": {
+
+ "Project3": {
     "Title": "Dual Adjustable Power Supply with Multiple Output Levels",
     "Description": "Designed, simulated, and tested a dual adjustable power supply with six output levels. Utilized full-wave rectification, voltage regulation (LM317, LM337, UA7912, UA7805), and operational amplifiers to create ±1.5–19V, ±12V, +5V, and 0–10V outputs. Validated circuit through Multisim simulations, breadboard prototyping, and PCB implementation. Emphasized modular stage design with protective inputs, filtering, and real-time voltage adjustment.",
     "GitHubRepo": "",
     "MainImage": "circuit_plan.png",
     "DetailImages": ["Elec_1_PCB.png","Elec_1_schematic.png","Elec_1_transient.png","Elec_1_physical_PCB.png"]
   },
+
   "Project4": {
     "Title": "",
     "Desc": "",
